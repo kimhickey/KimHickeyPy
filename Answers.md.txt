@@ -1,0 +1,34 @@
+Questions
+===
+
+For each problem, please provide an answer, and any scripts/commands
+that you used to get to the answer.  For the scripts, please check them
+in to a public github repo with a codename that does not have
+Jana in the name. 
+
+1) How many callbacks did we receive for partner id `nyr8nx`.
+96
+
+2) How many callbacks did we receive for partner `nyr8nx` for campaign id
+(cid) `X9KN0`
+27
+
+3) Write a python script that analyzes `elblogs.txt` and counts all
+API requests (requests starting with `api/`).  Print them out in
+descending frequency.
+
+On each line, print the percentage of requests this api request represented
+(to 2 decimal points of precision), the number of total requests made to this
+endpoint, and the api url path.  Finally, print the total number of api
+requests made in this period.
+
+Example output:
+
+```
+50.00%  50  api/v1/track_offer_views
+20.00%  20  api/v1/match_member_check
+15.00%  15  api/v1/profile/forgot_password
+10.00%  10  api/v1/member_id
+5.00%   5   api/v1/contacts/add_email
+100 Total api requests
+```
