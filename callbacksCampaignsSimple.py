@@ -6,7 +6,7 @@
 # and campaigns
 
 # '\/aff\/callback\/nyr8nx.*cid=X9KN0' can be used to find the campaign without tracking
-# callbacks for customer nyr8nx
+# all callbacks for customer nyr8nx
 
 import re
 
